@@ -1,0 +1,352 @@
+<html>
+	<head>
+		<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+		<title>My Classes</title>
+		<link rel="icon" type="image/x-icon" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIHN0eWxlPSJmaWxsOiM5QTRDMDA7IiBkPSJNMjY5LjUzMSwxMzEuNDU0bC0zMS4wODctNC4wOTFjMC4wOTQtMC43Myw4LjgyNS03My4yMjItMzcuNTExLTk5Ljk2MmwxNS42NzEtMjcuMTU3DQoJQzI4MS4xODksMzcuNTE1LDI3MC4wMzcsMTI3LjYzNiwyNjkuNTMxLDEzMS40NTR6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojRkYzQzYzOyIgZD0iTTQ2Ni41OTQsMzQ1Ljc5Yy0xNi4xNTgsNDIuODQxLTQyLjA3OCw3Ny4xMTEtNjAuOTg0LDk4LjMwNw0KCUMzNzUuNzcxLDQ3Ny41NjMsMzMyLjc5NCw1MTIsMzA1Ljk0NCw1MTJjLTEuMjg2LDAtMi41NC0wLjA4NC0zLjc1Mi0wLjI1MWMtMjIuODE2LTMuMDczLTM3LjcwOS04LjE2My00Ni4xOTYtMTEuOTA0DQoJYy0wLjM2NiwwLjE1Ny0wLjc0MiwwLjMyNC0xLjEyOSwwLjQ5MWMtOC42NDMsMy42NzktMjMuMjEzLDguNDc2LTQ1LjA1NiwxMS40MTNjLTEuMjEyLDAuMTY3LTIuNDY3LDAuMjUxLTMuNzYzLDAuMjUxDQoJYy0yNi44NSwwLTY5LjgxNi0zNC40MjctOTkuNjY1LTY3LjkwM2MtMTguODk2LTIxLjE5Ni00NC44MTYtNTUuNDY2LTYwLjk3NC05OC4zMDdjLTE2LjA1NC00Mi41NzktMTkuMDk1LTg0LjI3LTkuMDUxLTEyMy44OTINCgljMTMuNTQ1LTUzLjQyOCwzOS4yNDUtOTAuMTEzLDc2LjQtMTA5LjAzYzUxLjk4Ni0yNi40NjMsMTA0LjI1NC02Ljg3NywxMDQuNzY2LTYuNjY4YzUuNTcxLDIuMjI2LDIyLjc3NCw1LjY0NCwzNC4wMDksNy41MTVoOC45MzYNCgljMTEuMjM1LTEuODcxLDI4LjQ0OS01LjI5OSwzMy45OTktNy41MTVjMC41MTItMC4yMDksNTIuNzkxLTE5Ljc5NSwxMDQuNzc2LDYuNjY4YzM3LjE0NSwxOC45MTcsNjIuODU1LDU1LjYwMiw3Ni40LDEwOS4wMw0KCUM0ODUuNjg4LDI2MS41Miw0ODIuNjM3LDMwMy4yMTEsNDY2LjU5NCwzNDUuNzl6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojRkZBNkI4OyIgZD0iTTkxLjk3OCwyOTIuMjY3Yy0xNC4wNDUtODYuMDIxLDQzLjY5Ny0xMjMuOTEyLDQ2LjE2MS0xMjUuNDgzbDE2Ljg1MSwyNi40NDFsMC4xMDEtMC4wNjUNCgljLTEuNzUyLDEuMTU1LTQyLjc4MiwyOS4wNDktMzIuMTY5LDk0LjA1NEw5MS45NzgsMjkyLjI2N3oiLz4NCjxwYXRoIHN0eWxlPSJmaWxsOiNDMjAwMTk7IiBkPSJNNDY2LjU5NCwzNDUuNzljLTE2LjE1OCw0Mi44NDEtNDIuMDc4LDc3LjExMS02MC45ODQsOTguMzA3DQoJQzM3NS43NzEsNDc3LjU2MywzMzIuNzk0LDUxMiwzMDUuOTQ0LDUxMmMtMS4yODYsMC0yLjU0LTAuMDg0LTMuNzUyLTAuMjUxYy0yMi44MTYtMy4wNzMtMzcuNzA5LTguMTYzLTQ2LjE5Ni0xMS45MDQNCgljLTAuMzY2LDAuMTU3LTAuNzQyLDAuMzI0LTEuMTI5LDAuNDkxVjExMy43MTVoNS42MDJjMTEuMjM1LTEuODcxLDI4LjQ0OS01LjI5OSwzMy45OTktNy41MTUNCgljMC41MTItMC4yMDksNTIuNzkxLTE5Ljc5NSwxMDQuNzc2LDYuNjY4YzM3LjE0NSwxOC45MTcsNjIuODU1LDU1LjYwMiw3Ni40LDEwOS4wM0M0ODUuNjg4LDI2MS41Miw0ODIuNjM3LDMwMy4yMTEsNDY2LjU5NCwzNDUuNzl6DQoJIi8+DQo8cGF0aCBzdHlsZT0iZmlsbDojMDBBNjUzOyIgZD0iTTM4OC4yOCwzOC45MjRsLTE1LjYyNSwxNC4xMWMtMzEuODk4LDI4Ljc4My01OS45NSw0My4yOC04My42MzMsNDMuMjgNCgljLTUuMjg4LDAtMTAuMzU3LTAuNzIxLTE1LjE5Ni0yLjE2M2MtMjIuNDUtNi42OTktMzMuMzgyLTI3LjMzMS0zNi4yOTgtMzguNDYybC0wLjY1OC0yLjQ4N2wwLjE3OC0yLjU3MQ0KCWMwLjc5NC0xMS40ODYsNy42NzEtMzMuNzksMjguNDctNDQuNTY1YzI0LjYxMy0xMi43NTEsNTkuODY2LTUuMzcyLDEwNC43NzYsMjEuOTI3TDM4OC4yOCwzOC45MjR6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojMDA4MDQwOyIgZD0iTTM4OC4yOCwzOC45MjRsLTE1LjYyNSwxNC4xMWMtMzEuODk4LDI4Ljc4My01OS45NSw0My4yOC04My42MzMsNDMuMjgNCgljLTUuMjg4LDAtMTAuMzU3LTAuNzIxLTE1LjE5Ni0yLjE2M2MtMjIuNDUtNi42OTktMzMuMzgyLTI3LjMzMS0zNi4yOTgtMzguNDYybC0wLjY1OC0yLjQ4N0wzODguMjgsMzguOTI0eiIvPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo">
+		<style type="text/css">ol{margin:0;padding:0}table td,table th{padding:0}.c6{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#000000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000000;vertical-align:top;border-right-color:#000000;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;width:206.2pt;border-top-color:#000000;border-bottom-style:solid}.c7{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#000000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000000;vertical-align:top;border-right-color:#000000;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;width:81.8pt;border-top-color:#000000;border-bottom-style:solid}.c2{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#000000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000000;vertical-align:top;border-right-color:#000000;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;width:63.8pt;border-top-color:#000000;border-bottom-style:solid}.c8{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#000000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000000;vertical-align:top;border-right-color:#000000;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;width:94.5pt;border-top-color:#000000;border-bottom-style:solid}.c4{border-right-style:solid;padding:5pt 5pt 5pt 5pt;border-bottom-color:#000000;border-top-width:1pt;border-right-width:1pt;border-left-color:#000000;vertical-align:top;border-right-color:#000000;border-left-width:1pt;border-top-style:solid;border-left-style:solid;border-bottom-width:1pt;width:47.2pt;border-top-color:#000000;border-bottom-style:solid}.c1{background-color:#000000;-webkit-text-decoration-skip:none;color:#ffffff;font-weight:400;text-decoration:underline;vertical-align:baseline;text-decoration-skip-ink:none;font-size:11pt;font-family:"Arial";font-style:normal}.c3{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:1pt;font-family:"Arial";font-style:normal}.c13{color:#000000;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c5{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c14{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:center}.c10{background-color:#000000;text-decoration-skip-ink:none;-webkit-text-decoration-skip:none;color:#ffffff;text-decoration:underline}.c15{border-spacing:0;border-collapse:collapse;margin-right:auto}.c0{padding-top:0pt;padding-bottom:0pt;line-height:1.0;text-align:center}.c17{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}.c9{color:inherit;text-decoration:inherit}.c12{height:11pt}.c11{height:0pt}.c16{height:8.6pt}.c18{height:2.9pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}</style>
+	</head>
+<body class="c17">
+	<p class="c12 c14">
+		<span class="c5">
+		</span>
+	</p>
+	<a id="t.d016ddaa44caaac0aa0e0ba6ec0a1403c5508294">
+	</a>
+	<a id="t.0">
+	</a>
+	<table class="c15">
+		<tbody>
+			<tr class="c11">
+				<td class="c4" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c13">Period</span>
+					</p>
+				</td>
+				<td class="c6" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c13">Class Name</span>
+					</p>
+				</td>
+				<td class="c8" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c13">Teacher Name</span>
+					</p>
+				</td>
+				<td class="c2" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c13">Canvas ID</span>
+					</p>
+				</td>
+				<td class="c7" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c13">Link</span>
+					</p>
+				</td>
+			</tr>
+			<tr class="c16">
+				<td class="c4" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+				<td class="c6" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+				<td class="c8" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+				<td class="c2" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+				<td class="c7" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+			</tr>
+			<tr class="c11">
+				<td class="c4" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">NaN</span>
+					</p>
+				</td>
+				<td class="c6" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">Canvas AD Login Page</span>
+					</p>
+				</td>
+				<td class="c8" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">null</span>
+					</p>
+				</td>
+				<td class="c2" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">null</span>
+					</p>
+				</td>
+				<td class="c7" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c10">
+							<a class="c9" href="https://ccsd.instructure.com/login/canvas#login">Open Page</a>
+						</span>
+					</p>
+				</td>
+			</tr>
+			<tr class="c11">
+				<td class="c4" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">NaN</span>
+					</p>
+				</td>
+				<td class="c6" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">Canvas DGAuthPassthru</span>
+					</p>
+				</td>
+				<td class="c8" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">null</span>
+					</p>
+				</td>
+				<td class="c2" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">null</span>
+					</p>
+				</td>
+				<td class="c7" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c10">
+							<a class="c9" href="https://sso.canvaslms.com/delegated_auth_pass_through?target=https%3A%2F%2Fccsd.instructure.com%2F%3Flogin_success%3D1">Open Page</a>
+						</span>
+					</p>
+				</td>
+			</tr>
+			<tr class="c18">
+				<td class="c4" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+				<td class="c6" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+				<td class="c8" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+				<td class="c2" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+				<td class="c7" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+			</tr>
+			<tr class="c11">
+				<td class="c4" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">1</span>
+					</p>
+				</td>
+				<td class="c6" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">Cybersecurity III Honors</span>
+					</p>
+				</td>
+				<td class="c8" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">Kracaw</span>
+					</p>
+				</td>
+				<td class="c2" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">147414</span>
+					</p>
+				</td>
+				<td class="c7" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c10">
+							<a class="c9" href="https://ccsd.instructure.com/courses/17901~147414">Open Page</a>
+						</span>
+					</p>
+				</td>
+			</tr>
+			<tr class="c11">
+				<td class="c4" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">2</span>
+					</p>
+				</td>
+				<td class="c6" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">English 10</span>
+					</p>
+				</td>
+				<td class="c8" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">Jenkins/Miller</span>
+					</p>
+				</td>
+				<td class="c2" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">155782</span>
+					</p>
+				</td>
+				<td class="c7" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c10">
+							<a class="c9" href="https://ccsd.instructure.com/courses/17901~155782">Open Page</a>
+						</span>
+					</p>
+				</td>
+			</tr>
+			<tr class="c11">
+				<td class="c4" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">3</span>
+					</p>
+				</td>
+				<td class="c6" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">U.S. Government and Economics</span>
+					</p>
+				</td>
+				<td class="c8" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">Manio</span>
+					</p>
+				</td>
+				<td class="c2" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">149911</span>
+					</p>
+				</td>
+				<td class="c7" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c10">
+							<a class="c9" href="https://ccsd.instructure.com/courses/17901~149911">Open Page</a>
+						</span>
+					</p>
+				</td>
+			</tr>
+			<tr class="c11">
+				<td class="c4" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">4</span>
+					</p>
+				</td>
+				<td class="c6" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">Spanish II Honors</span>
+					</p>
+				</td>
+				<td class="c8" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">Sanchez</span>
+					</p>
+				</td>
+				<td class="c2" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">159862</span>
+					</p>
+				</td>
+				<td class="c7" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c10">
+							<a class="c9" href="https://ccsd.instructure.com/courses/17901~159862">Open Page</a>
+						</span>
+					</p>
+				</td>
+			</tr>
+			<tr class="c11">
+				<td class="c4" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">8</span>
+					</p>
+				</td>
+				<td class="c6" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">Reason &amp; Sense-Making in Math</span>
+					</p>
+				</td>
+				<td class="c8" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">Rhee</span>
+					</p>
+				</td>
+				<td class="c2" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c5">142597</span>
+					</p>
+				</td>
+				<td class="c7" colspan="1" rowspan="1">
+					<p class="c0">
+						<span class="c10">
+							<a class="c9" href="https://ccsd.instructure.com/courses/17901~142597">Open Page</a>
+						</span>
+					</p>
+				</td>
+			</tr>
+			<tr class="c11">
+				<td class="c4" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+				<td class="c6" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+				<td class="c8" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+				<td class="c2" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+				<td class="c7" colspan="1" rowspan="1">
+					<p class="c0 c12">
+						<span class="c3">
+						</span>
+					</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p class="c14 c12">
+		<span class="c5">
+		</span>
+	</p>
+</body>
+</html>
